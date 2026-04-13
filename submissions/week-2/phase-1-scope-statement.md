@@ -84,5 +84,44 @@
     - risk of unfairness between customers
     - reintroduces problem of inconsistency between cases
 
-    
+## Assumptions
 
+### Example
+
+- legacy data needed for account summary is accessible enough for Phase 1
+
+- eligibility rules can be agreed without full policy redesign
+
+- operations will support a limited pilot or phased rollout
+
+### Mine
+
+- Case call-ins have a clear structure/ methodology that can be mapped into 'stages' in the portal.
+
+- portal captures context well and completely enough for agents to not reject it.
+
+- payment plan selection and agent routing are completely traceable. The link between data and conclusions drawn should be clear so that agents trust the portal, and can validate it if necessary.
+
+## Dependencies and constraints
+
+### Example
+
+- legacy system data availability
+
+- compliance approval for messages and audit trail
+
+- agent workflow alignment for routed cases
+
+### Mine
+
+- Employees calendar data needed for scheduling follow-ups is available.
+
+- What each agent can and cannot do (clearance, expertise) is well-defined.
+
+- procedure for eligible payment plan selection is based on data that exist in a database.
+
+## Credibility
+
+Portal gets status from database
+Portal sends sms reminders
+Portal schedules follow-up
