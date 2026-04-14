@@ -22,6 +22,7 @@
 - Portal SMS reminders
     - portal has access to delinquency database
     - sms reminders sent when delinquency stage reaches mid
+    - agents spend too much time on this- easy win in terms of time and cost.
 
 - Eligible payment-plan selection 
     - heavily rules-based procedure that fairly assessed customer's data.
@@ -136,7 +137,7 @@
 
 ## Credibility
 
-This scope is credible because all in-scope capabilities are rules-driven and high volume. In fact, a simple ROI analysis showed that just automating routine reminders, follow-up scheduling, and promise-to-pay capture can save over 6000 hours annually, and reveal £550,000 for the business annually. Implementing these is straightforward, software engineering problem that can be achieved in 2 weeks.
+This scope is credible because all in-scope capabilities are rules-driven and high volume. In fact, a simple ROI analysis showed that just automating routine reminders, follow-up scheduling, and promise-to-pay capture can save over 6000 hours, and reveal £550,000 for the business annually. Implementing these is straightforward, software engineering problem that can be achieved in 2 weeks.
 
 The biggest risk was that agents would not use the portal - especially if it returned incomplete contextual information. This is why we have put outcome reporting in our scope. Context thus becomes an acceptance criteria for our phase 1 which mitigates it's biggest risk. Our largest concern is now the possibility that customers themselves opt out of the portal, choosing to phone in or send email requests.
 
