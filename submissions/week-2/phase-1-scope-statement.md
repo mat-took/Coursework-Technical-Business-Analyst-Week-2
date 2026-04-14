@@ -9,13 +9,19 @@
     - customers need to understand what they owe before escalating.
     - stakeholders have different degrees of 'clearance'.
     - option to change details - based on level of clearance.
-    - option to flag hardship
-    - display case history
+    - option for agent or customer to flag hardship.
+    - display case history.
+    - customer optionality to go directly to an agent.
 
 - Promise-to-pay capture 
     - agents have currently capture inconsistently.
     - current difficulty in handovers raised in interviews.
+    - case cannot continue without promise-to-pay.
     - risk considered before validation (debt volume, overdraft, frozen funds etc.)
+
+- Portal SMS reminders
+    - portal has access to delinquency database
+    - sms reminders sent when delinquency stage reaches mid
 
 - Eligible payment-plan selection 
     - heavily rules-based procedure that fairly assessed customer's data.
@@ -102,6 +108,10 @@
 
 - payment plan selection and agent routing are completely traceable. The link between data and conclusions drawn should be clear so that agents trust the portal, and can validate it if necessary.
 
+- agents have a model for identifying customer hardship and will consistently flag it in the portal.
+
+- customers will not all opt to go directly to agent- thus making the portal redundant.
+
 ## Dependencies and constraints
 
 ### Example
@@ -120,8 +130,13 @@
 
 - procedure for eligible payment plan selection is based on data that exist in a database.
 
+- there are clear escalation policies for different flags.
+
+- clear criteria for when delinquency stage reaches 'mid', with additional criteria used to prioritise cases in that category.
+
 ## Credibility
 
-Portal gets status from database
-Portal sends sms reminders
-Portal schedules follow-up
+This scope is credible because all in-scope capabilities are rules-driven and high volume. In fact, a simple ROI analysis showed that just automating routine reminders, follow-up scheduling, and promise-to-pay capture can save over 6000 hours annually, and reveal £550,000 for the business annually. Implementing these is straightforward, software engineering problem that can be achieved in 2 weeks.
+
+The biggest risk was that agents would not use the portal - especially if it returned incomplete contextual information. This is why we have put outcome reporting in our scope. Context thus becomes an acceptance criteria for our phase 1 which mitigates it's biggest risk. Our largest concern is now the possibility that customers themselves opt out of the portal, choosing to phone in or send email requests.
+
