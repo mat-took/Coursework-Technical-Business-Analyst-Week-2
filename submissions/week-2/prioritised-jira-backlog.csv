@@ -1,0 +1,197 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Custom field (Atlassian project),Custom field (Atlassian project status),Custom field (Category),Custom field (Comments),Custom field (Confidence),Custom field (Delivery progress),Custom field (Delivery status),Custom field (Designs ready),Custom field (Development),Custom field (Documents),Custom field (Effort),Custom field (Goals),Custom field (Idea archived),Custom field (Idea archived on),Custom field (Idea short description),Custom field (Impact),Custom field (Insights),Custom field (Issue color),Custom field (Linked items),Custom field (Project start),Custom field (Project target),Custom field (RICE score),Custom field (Rank),Custom field (Reach),Custom field (Roadmap),Custom field (Spec ready),Custom field (Start date),Custom field (Team),Custom field (Value),Custom field (Vulnerability),Parent,Parent key,Parent summary,Status Category,Status Category Changed
+Service design needs customer feedback,LTB-40,10096,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,16/Apr/26 11:19 AM,16/Apr/26 11:19 AM,,,,0,Phase-1,"*Statement:* 
+As a service design lead, I need customer feedback so that I can continually improve the portal.
+
+*Acceptance Criteria:* 
+Portal asks customers to leave feedback at the end of a session.
+
+*Dependencies:* 
+Clear feedback-action cycle in the design team.
+
+*Priority*
+High - This will help us identify the problems in the phase 1 workflow to fix in the next phases, and we can mitigate customer-related risks if they are clearly documented.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000c7:,,,,,,,,10052,LTB-5,Reporting and Audit Trail,In Progress,16/Apr/26 11:19 AM
+Senior collections wants case-wise reporting for audit,LTB-39,10094,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,16/Apr/26 11:09 AM,16/Apr/26 11:21 AM,16/Apr/26 11:20 AM,,,0,Phase-1,"*Statement:* 
+As senior collections, I want each case to return a report with metrics so that I can draft reports for compliance.
+
+*Acceptance Criteria:* 
+Portal outputs _audit-trailing_ report that includes,
+
+* Contact frequency
+* Payment plans offered
+* Escalation timeline
+* Regulations enforced 
+* Amounts handled
+
+*Dependencies:* 
+Clear escalation policies supported by rules and regulations.
+
+*Priority*
+High - Finance will reject value case if we are not compliant.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000bz:,,,,,,,,10052,LTB-5,Reporting and Audit Trail,In Progress,16/Apr/26 11:09 AM
+Agents want case-wise reporting for operations,LTB-38,10092,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,16/Apr/26 11:03 AM,16/Apr/26 11:22 AM,16/Apr/26 11:21 AM,,,0,Phase-1,"*Statement:* 
+As an agent, I want a single report that breaks down each case so that I don't have to find details across trackers.
+
+*Acceptance Criteria:* 
+Portal outputs _operational_ report that includes promise-to-pays, statuses and contact points.
+
+*Dependencies:* 
+Rules-based way to clearly document customer details in current workflow.
+
+*Priority*
+High - to-be workflow and value case relies on the fact that agent's workload decreases.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000br:,,,,,,,,10052,LTB-5,Reporting and Audit Trail,In Progress,16/Apr/26 11:03 AM
+Customers want escalations dealt with promptly,LTB-37,10090,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,16/Apr/26 10:51 AM,16/Apr/26 11:24 AM,16/Apr/26 11:22 AM,,,0,Phase-1,"*Statement:* 
+As a customer, I want a short wait time from when my case is flagged to when I’m talking to an agent so that I can pay promptly.
+
+*Acceptance Criteria:* 
+Agents call customers back within a day of escalation.
+
+*Dependencies:* 
+There are clear escalation policies and agents are available.
+
+*Priority*
+Medium - Customer wait-time does not affect value case or to-be workflow, but is a risk in terms of portal adoption.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000bj:,,,,,,,,10051,LTB-4,Routing and Exception Handling,In Progress,16/Apr/26 10:51 AM
+Agents do not want to be overwhelmed by escalations,LTB-36,10088,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 9:40 PM,16/Apr/26 11:28 AM,16/Apr/26 11:25 AM,,,0,Phase-1,"*Statement:* 
+As an agent, I do not want to be overwhelmed by the volume of routed cases so that I am working within my limits.
+
+*Acceptance Criteria:* 
+Vast majority (at least 80%) of cases aren’t escalated by the portal.
+
+*Dependencies:* 
+There are well defined rules for dealing with most cases - which can then be implemented into a system.
+
+*Priority*
+High - to-be workflow and value case rely on the fact that agent workload decreases; story features critical dependency.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000bb:,,,,,,,,10051,LTB-4,Routing and Exception Handling,In Progress,15/Apr/26 9:40 PM
+Agents wants routed cases to be solvable,LTB-35,10086,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 9:36 PM,16/Apr/26 11:32 AM,16/Apr/26 11:29 AM,,,0,Phase-1,"*Statement:* 
+As an agent, I only want the cases that I can solve routed to me so that I can do my job quickly.
+
+*Acceptance Criteria:* 
+Ratio of straightforward cases reaches 0.8
+
+*Dependencies:* 
+Metric exists for what cases agents are good at.
+
+*Priority*
+Medium - to-be workflow doesn’t explicitly depend on re-routing, but this could affect portal adoption and create unnecessary work for agents.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000b3:,,,,,,,,10051,LTB-4,Routing and Exception Handling,In Progress,15/Apr/26 9:36 PM
+Portal users want to see eligible actions,LTB-34,10084,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 9:26 PM,16/Apr/26 11:32 AM,16/Apr/26 11:32 AM,,,0,Phase-1,"*Statement:* 
+As a portal user, I want to know my eligible actions at any point so that I can use the portal easily.
+
+*Acceptance Criteria:* 
+Available actions shown in portal UI.
+
+*Dependencies:* 
+Well defined scope of work for each stakeholder exists.
+
+*Priority*
+High - risk that nobody will adopt the portal if its confusing.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000av:,,,,,,,,10049,LTB-2,Account Visibility,In Progress,15/Apr/26 9:26 PM
+Agent wants customers to know reason for escalation,LTB-33,10083,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 9:22 PM,16/Apr/26 11:34 AM,16/Apr/26 11:32 AM,,,0,Phase-1,"*Statement:* 
+As a collections agent, I want customers to know why they are escalated so that we can draft a payment plan easily.
+
+*Acceptance Criteria:* 
+Customer receives escalation summary.
+
+*Dependencies:* 
+Clear escalation workflow.
+
+*Priority*
+Low - this does not affect value case significantly as customers might already get a sense of whats going on from account summary.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000an:,,,,,,,,10049,LTB-2,Account Visibility,In Progress,15/Apr/26 9:22 PM
+Customer wants round-the-clock access,LTB-32,10081,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 8:57 PM,16/Apr/26 11:35 AM,16/Apr/26 11:34 AM,,,0,Phase-1,"*Statement:* 
+As a customer, I want to be able to access the portal at any time so that my schedule doesn’t get in the way of repayment.
+
+*Acceptance Criteria:* 
+Servers are up 24/7.
+
+*Dependencies:* 
+Digital infrastructure to sustain this (AWS?)
+
+*Priority*
+Medium - bottlenecks would appear in workflow where customer traffic is too high, with the risk of agent escalations all happening at once and overwhelming them.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000af:,,,,,,,,10048,LTB-1,Access and Verification,In Progress,15/Apr/26 8:57 PM
+Compliance wants 2FA in portal,LTB-31,10079,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 8:53 PM,16/Apr/26 11:37 AM,16/Apr/26 11:35 AM,,,0,Phase-1,"*Statement:* 
+As a compliance liasion, I would like an additional layer of security in the portal so that the information in agents accounts is safe.
+
+*Acceptance Criteria:* 
+The portal has 2FA.
+
+*Dependencies:* 
+Agents have a work email.
+
+*Priority*
+Low - later phases will flag abusive behaviour.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000a7:,,,,,,,,10048,LTB-1,Access and Verification,In Progress,15/Apr/26 8:53 PM
+Operations wants secure verification,LTB-30,10078,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 8:45 PM,16/Apr/26 11:37 AM,16/Apr/26 11:37 AM,,,0,Phase-1,"*Statement:* 
+As a operations manager, I only want delinquents to be able to register to the portal so that our servers aren’t abused.
+
+*Acceptance Criteria:* 
+Delinquents given key or information only known to them to create an account.
+
+*Dependencies:* 
+Unique way to identify delinquents exists.
+
+*Priority*
+High - entire case breaks down if anyone can use it. Critical dependency.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009z:,,,,,,,,10048,LTB-1,Access and Verification,In Progress,15/Apr/26 8:45 PM
+Customer wants tailored payment plans,LTB-29,10076,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 5:36 PM,16/Apr/26 11:39 AM,16/Apr/26 11:38 AM,,,0,Phase-1,"*Statement:* 
+As a customer, I want the portal to tell me why it suggests the payment plans that it does, so that I can choose one with confidence.
+
+*Acceptance Criteria:* 
+Suggested payment plans must have a description linking to customer.
+
+*Dependencies:* 
+Payment plan selection is not a ‘black box’ and can be traced back to case details.
+
+*Priority*
+Medium - risk of adoption if customers lose agency and clarity. Critical dependency as we aren’t sure it can be satisfied yet.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009r:,,,,,,,,10050,LTB-3,Payment Plan Journey,In Progress,15/Apr/26 5:36 PM
+Customer wants choice in the portal,LTB-28,10075,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 5:29 PM,16/Apr/26 11:40 AM,16/Apr/26 11:39 AM,,,0,Phase-1,"*Statement:* 
+As a customer, I want the portal to give me agency and choice so that the debt collection process remains a dignified one.
+
+*Acceptance Criteria:* 
+Customers must be able to choose payment plans.
+
+*Dependencies:* 
+Data available to build an algorithm, and a variety of existing plans.
+
+*Priority*
+High - risk of adoption if process feels impersonal.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009j:,,,,,,,,10050,LTB-3,Payment Plan Journey,In Progress,15/Apr/26 5:29 PM
+Customer wants feature list,LTB-27,10074,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 5:20 PM,16/Apr/26 11:41 AM,16/Apr/26 11:40 AM,,,0,Phase-1,"*Statement:* 
+As a customer, I want to know what features aren’t available on the portal before logging in so that I can go to other points of contact.
+
+*Acceptance Criteria:* 
+Does the portal have a feature list?
+
+*Dependencies:* 
+Clear portal scope and escalation cases.
+
+*Priority*
+Medium - potentially saves customer and agent time, thus improving the value case. Implementing eligible actions at each stage could make this redundant - need feedback after phase 1.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009b:,,,,,,,,10050,LTB-3,Payment Plan Journey,In Progress,15/Apr/26 5:20 PM
+Customer should know what they owe,LTB-26,10073,Story,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:41 PM,16/Apr/26 11:42 AM,16/Apr/26 11:41 AM,,,0,Phase-1,"*Statement:* 
+As a customer I want to know what I owe before progressing a case, so that I am financially and mentally prepared. 
+
+*Acceptance Criteria:* 
+Do customers see what they owe on the landing page?
+
+*Dependencies:* 
+Legacy system delinquency data is available and up-to-date.
+
+*Priority*
+High - risk of adoption if customers find portal burdensome. This is a critical outcome raised by many stakeholders.",,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i00093:,,,,,,,,10049,LTB-2,Account Visibility,In Progress,15/Apr/26 3:41 PM
+Forward session outcome to user and agent,LTB-25,10072,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:22 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0008v:,,,,,,,,10052,LTB-5,Reporting and Audit Trail,In Progress,15/Apr/26 3:22 PM
+Capture session outcomes in a report,LTB-24,10071,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:21 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0008n:,,,,,,,,10052,LTB-5,Reporting and Audit Trail,In Progress,15/Apr/26 3:21 PM
+Implement algorithm that maps flagged user case to agent,LTB-23,10070,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:20 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0008f:,,,,,,,,10051,LTB-4,Routing and Exception Handling,In Progress,15/Apr/26 3:20 PM
+Capture user promise-to-pay,LTB-22,10069,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:18 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i00087:,,,,,,,,10052,LTB-5,Reporting and Audit Trail,In Progress,15/Apr/26 3:18 PM
+Raise flag for user time-outs and abandonment,LTB-21,10068,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:17 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0007z:,,,,,,,,10051,LTB-4,Routing and Exception Handling,In Progress,15/Apr/26 3:17 PM
+Implement secure payment method,LTB-20,10067,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:15 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0007r:,,,,,,,,10050,LTB-3,Payment Plan Journey,In Progress,15/Apr/26 3:15 PM
+Escalate flagged user cases to agents,LTB-19,10066,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:15 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0007j:,,,,,,,,10051,LTB-4,Routing and Exception Handling,In Progress,15/Apr/26 3:15 PM
+Flag users with no valid payment plans as ineligible,LTB-18,10065,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:14 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0007b:,,,,,,,,10050,LTB-3,Payment Plan Journey,In Progress,15/Apr/26 3:14 PM
+Prompt user to schedule follow-up after payment,LTB-17,10064,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:14 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i00073:,,,,,,,,10050,LTB-3,Payment Plan Journey,In Progress,15/Apr/26 3:14 PM
+Write payment plan algorithm,LTB-16,10063,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:13 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0006v:,,,,,,,,10050,LTB-3,Payment Plan Journey,In Progress,15/Apr/26 3:13 PM
+Show existing users eligible steps in account summary,LTB-15,10062,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:11 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0006n:,,,,,,,,10049,LTB-2,Account Visibility,In Progress,15/Apr/26 3:11 PM
+Add option to open case for new delinquents,LTB-14,10061,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:10 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0006f:,,,,,,,,10049,LTB-2,Account Visibility,In Progress,15/Apr/26 3:10 PM
+Account summary shows payment history,LTB-13,10060,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:07 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i00067:,,,,,,,,10049,LTB-2,Account Visibility,In Progress,15/Apr/26 3:07 PM
+Account summary shows overdue amount,LTB-12,10059,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:07 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0005z:,,,,,,,,10049,LTB-2,Account Visibility,In Progress,15/Apr/26 3:07 PM
+Account summary shows total debt,LTB-11,10058,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:06 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0005r:,,,,,,,,10049,LTB-2,Account Visibility,In Progress,15/Apr/26 3:06 PM
+User sees account summary on login,LTB-10,10057,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:06 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0005j:,,,,,,,,10049,LTB-2,Account Visibility,In Progress,15/Apr/26 3:06 PM
+Locks user out after 5 attempts,LTB-9,10056,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:04 PM,15/Apr/26 3:31 PM,15/Apr/26 3:04 PM,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0005b:,,,,,,,,10048,LTB-1,Access and Verification,In Progress,15/Apr/26 3:04 PM
+Registered accounts mapped to legacy database,LTB-8,10055,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:02 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i00053:,,,,,,,,10048,LTB-1,Access and Verification,In Progress,15/Apr/26 3:02 PM
+Create login and register page,LTB-7,10054,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:02 PM,15/Apr/26 3:31 PM,,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004v:,,,,,,,,10048,LTB-1,Access and Verification,In Progress,15/Apr/26 3:02 PM
+Identity verification checks database,LTB-6,10053,Task,Backlog,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 3:01 PM,15/Apr/26 3:31 PM,15/Apr/26 9:27 PM,,,0,Phase-1,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0004n:,,,,,,,,10048,LTB-1,Access and Verification,In Progress,15/Apr/26 3:01 PM
+Reporting and Audit Trail,LTB-5,10052,Epic,To Do,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 2:58 PM,15/Apr/26 2:58 PM,,,,0,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,,,0|i0004f:,,,,,,,,,,,To Do,15/Apr/26 2:58 PM
+Routing and Exception Handling,LTB-4,10051,Epic,To Do,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 2:58 PM,15/Apr/26 2:58 PM,,,,0,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,,,0|i00047:,,,,,,,,,,,To Do,15/Apr/26 2:58 PM
+Payment Plan Journey,LTB-3,10050,Epic,To Do,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 2:58 PM,15/Apr/26 2:58 PM,,,,0,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,,,0|i0003z:,,,,,,,,,,,To Do,15/Apr/26 2:58 PM
+Account Visibility,LTB-2,10049,Epic,To Do,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 2:57 PM,15/Apr/26 2:57 PM,,,,0,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,,,0|i0003r:,,,,,,,,,,,To Do,15/Apr/26 2:57 PM
+Access and Verification,LTB-1,10048,Epic,To Do,LTB,c23-matheus-ltb-phase1,software,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,Medium,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,15/Apr/26 2:57 PM,15/Apr/26 2:57 PM,15/Apr/26 3:24 PM,,,0,,,,Matheus Soffiati,712020:332b3e02-1c7d-41db-8d92-d2df39c5120e,,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,,,0|i0003j:,,,,,,,,,,,To Do,15/Apr/26 2:57 PM

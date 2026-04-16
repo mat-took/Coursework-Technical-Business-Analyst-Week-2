@@ -1,0 +1,6 @@
+Risk,Mitigation,Mitigation Type
+"Finance Analysts have too narrow a view of the project, so that they can't validate assumptions, or see improvements",Invite finance analysts to phase 1 brief,executive briefing messages
+Collections agents will reject the portal if it comes back with no context,Implement case-wise reporting capability,reporting requirements
+Collections agents will lose confidence in the portal if escalation path is unclear,Make escalation pathway clear in workflow,backlog item
+Customers will be unaware of portal,Send out messages telling customers about portal through many different streams,executive briefing messages
+Customers will abandon portal because it's complex,"Implement simple, intuitive UI",backlog item
